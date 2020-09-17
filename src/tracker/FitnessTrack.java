@@ -77,6 +77,7 @@ public class FitnessTrack extends JFrame {
 		title.setBounds(103, 36, 103, 30);
 		contentPane.add(title);
 		
+		//To clear the Time field after each entry
 		ActionListener messagePrint = new ActionListener() {
 		public void actionPerformed(ActionEvent e) {
 			insertBox.setText("");
@@ -101,6 +102,7 @@ public class FitnessTrack extends JFrame {
 				mytimer.setRepeats(false);
 				}
 			}
+			//To make an effect of changing background colour of button upon entry and exit
 			public void mouseEntered(MouseEvent e) {
 				swimButton.setIcon(new ImageIcon(FitnessTrack.class.getResource("/tracker/swimdButton.png")));
 			}
@@ -129,6 +131,7 @@ public class FitnessTrack extends JFrame {
 				mytimer.setRepeats(false);
 			}
 		}
+			//To make an effect of changing background colour of button upon entry and exit
 			public void mouseEntered(MouseEvent e) {
 				strengthButton.setIcon(new ImageIcon(FitnessTrack.class.getResource("/tracker/stengthdButton.png")));
 				}
@@ -157,6 +160,7 @@ public class FitnessTrack extends JFrame {
 				mytimer.setRepeats(false);
 			}
 		}
+			//To make an effect of changing background colour of button upon entry and exit
 			public void mouseEntered(MouseEvent e) {
 				runButton.setIcon(new ImageIcon(FitnessTrack.class.getResource("/tracker/rundButton.png")));
 			}
@@ -184,7 +188,8 @@ public class FitnessTrack extends JFrame {
 				mytimer.start();
 				mytimer.setRepeats(false);
 			}
-		}		
+		}
+			//To make an effect of changing background colour of button upon entry and exit		
 			public void mouseEntered(MouseEvent e) {
 				kickButton.setIcon(new ImageIcon(FitnessTrack.class.getResource("/tracker/kickdButton.png")));
 			}
@@ -204,6 +209,7 @@ public class FitnessTrack extends JFrame {
 				toDisplay.setVisible(true);
 				toDisplay.setDefaultCloseOperation(EXIT_ON_CLOSE);
 			}
+			//To make an effect of changing background colour of button upon entry and exit
 			public void mouseEntered(MouseEvent e) {
 				calcButton.setIcon(new ImageIcon(FitnessTrack.class.getResource("/tracker/calcdButton.png")));
 			}
