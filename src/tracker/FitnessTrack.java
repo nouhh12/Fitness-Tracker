@@ -275,8 +275,10 @@ public Show(Track track) {
 	
 	int time,option=0,i=0,max=0,j,k=0,winner=0,flag=0;
 	String exercise;float biggest=0,biggesthr;
-	int[] blacklist=new int[] {10,10,10,10}; //this is used in the sorting to identify which indices have been printed
-											//so not to be displayed again
+	
+	//this is used in the sorting to identify which indices have been printed so not to be displayed again
+	int[] blacklist=new int[] {10,10,10,10}; 
+	
 	for(i=0;i<4;i++) {
 		winner=0; biggest=0;biggesthr=0;flag=10;
 		if(track.totalCal[i]==0) {
