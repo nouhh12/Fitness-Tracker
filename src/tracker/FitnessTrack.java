@@ -268,6 +268,7 @@ public Show(Track track) {
 	background.setBounds(-40, 10, 300, 420);
 	contentPane.add(background);
 	
+	//DecimalFormat is used to define the number of decimal places required in each field which in this case is 2 decimal places
 	DecimalFormat df = new DecimalFormat("####.00");
 	
 	printingBox.append(String.valueOf(df.format(track.totalCalories))+" calories\n");
@@ -321,6 +322,7 @@ public Show(Track track) {
 			printingBox.append(track.getHeartRate(3)+"\n");
 		}
 }
+//if the activity was not performed by the user then the heart rate increase and calories burned for that activity are placed as 0
 	for(i=0;i<4;i++) {
 		winner=10;
 		if(i!=blacklist[0] && i!=blacklist[1] && i!=blacklist[2] && i!=blacklist[3]) {
