@@ -236,12 +236,6 @@ public class FitnessTrack extends JFrame {
 }
 class Show extends JFrame{
 	private JPanel contentPane;
-	//private Track track;
-
-	/*public void setTrack(Track track) {
-		this.track=track;
-		
-	}*/
 	
 public Show(Track track) {
 		
