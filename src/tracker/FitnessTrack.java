@@ -147,6 +147,7 @@ public class FitnessTrack extends JFrame {
 		final JLabel runButton = new JLabel("");
 		runButton.addMouseListener(new MouseAdapter() {
 			public void mouseClicked(MouseEvent e) {
+				//To inform the user that a specific time should be inserted rather than leaving the field empty
 				if(insertBox.getText().isEmpty()) {
 					insertBox.setText("Please Insert Time...");
 					mytimer.start();
