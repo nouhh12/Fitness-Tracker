@@ -88,6 +88,7 @@ public class FitnessTrack extends JFrame {
 		final JLabel swimButton = new JLabel("");
 		swimButton.addMouseListener(new MouseAdapter() {
 			public void mouseClicked(MouseEvent e) {
+				//To inform the user that a specific time should be inserted in field rather than leaving it empty
 				if(insertBox.getText().isEmpty()) {
 					insertBox.setText("Please Insert Time...");
 					mytimer.start();
@@ -177,6 +178,7 @@ public class FitnessTrack extends JFrame {
 		final JLabel kickButton = new JLabel("");
 		kickButton.addMouseListener(new MouseAdapter() {
 			public void mouseClicked(MouseEvent e) {
+				//To inform the user that a specific time should be inserted in field rather than leaving it empty
 				if(insertBox.getText().isEmpty()) {
 					insertBox.setText("Please Insert Time...");
 					mytimer.start();
