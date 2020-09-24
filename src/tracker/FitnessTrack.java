@@ -42,6 +42,7 @@ public class FitnessTrack extends JFrame {
 	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
+			//To start running the window of the gui
 			public void run() {
 				try {
 					FitnessTrack frame = new FitnessTrack();
