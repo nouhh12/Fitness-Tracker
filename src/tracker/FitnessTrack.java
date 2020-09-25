@@ -48,6 +48,7 @@ public class FitnessTrack extends JFrame {
 					FitnessTrack frame = new FitnessTrack();
 					frame.setVisible(true);
 				} catch (Exception e) {
+					//Case there is an error in running the gui
 					e.printStackTrace();
 				}
 			}
