@@ -240,6 +240,7 @@ public class FitnessTrack extends JFrame {
 	}
 
 }
+//The new window showing the results
 class Show extends JFrame{
 	private JPanel contentPane;
 	
