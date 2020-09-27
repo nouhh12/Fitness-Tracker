@@ -243,7 +243,8 @@ public class FitnessTrack extends JFrame {
 //The new window showing the results
 class Show extends JFrame{
 	private JPanel contentPane;
-	
+//Object "Track" is passed to the function displaying the second window 
+//to use the data in the object such as calories burned and heart rate increase per activity	
 public Show(Track track) {
 		
 	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
