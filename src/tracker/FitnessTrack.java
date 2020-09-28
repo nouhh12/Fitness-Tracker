@@ -87,6 +87,7 @@ public class FitnessTrack extends JFrame {
 		};
 		final Timer mytimer= new Timer(1000, messagePrint);
 		
+		//Swimming button data
 		final JLabel swimButton = new JLabel("");
 		swimButton.addMouseListener(new MouseAdapter() {
 			public void mouseClicked(MouseEvent e) {
@@ -117,6 +118,7 @@ public class FitnessTrack extends JFrame {
 		swimButton.setBounds(10, 94, 130, 40);
 		contentPane.add(swimButton);
 		
+		//Strength training button data
 		final JLabel strengthButton = new JLabel("");
 		strengthButton.addMouseListener(new MouseAdapter() {
 			public void mouseClicked(MouseEvent e) {
@@ -147,6 +149,7 @@ public class FitnessTrack extends JFrame {
 		strengthButton.setBounds(10, 169, 220, 40);
 		contentPane.add(strengthButton);
 		
+		//Running button data
 		final JLabel runButton = new JLabel("");
 		runButton.addMouseListener(new MouseAdapter() {
 			public void mouseClicked(MouseEvent e) {
@@ -177,6 +180,7 @@ public class FitnessTrack extends JFrame {
 		runButton.setBounds(304, 94, 120, 40);
 		contentPane.add(runButton);
 		
+		//Kick Boxing button data
 		final JLabel kickButton = new JLabel("");
 		kickButton.addMouseListener(new MouseAdapter() {
 			public void mouseClicked(MouseEvent e) {
