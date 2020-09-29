@@ -85,6 +85,7 @@ public class FitnessTrack extends JFrame {
 			insertBox.setText("");
 		}
 		};
+		//Timer is set for the message to be displayed for a second each time
 		final Timer mytimer= new Timer(1000, messagePrint);
 		
 		//Swimming button data
