@@ -131,6 +131,7 @@ public class FitnessTrack extends JFrame {
 					mytimer.setRepeats(false);
 				}
 				else {
+				//To pass the time of the activity to Track object
 				int time=Integer.parseInt(insertBox.getText());
 				track.getCaloriesBurnt(time, "Strength_Training");
 				track.heartRateIncrease(time, "Strength_Training");
