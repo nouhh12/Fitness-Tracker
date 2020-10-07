@@ -220,7 +220,6 @@ public class FitnessTrack extends JFrame {
 		calcButton.addMouseListener(new MouseAdapter() {
 			public void mouseClicked(MouseEvent e) {
 				Show toDisplay = new Show(track);
-				//toDisplay.setTrack(track);
 				toDisplay.setVisible(true);
 				toDisplay.setDefaultCloseOperation(EXIT_ON_CLOSE);
 			}
