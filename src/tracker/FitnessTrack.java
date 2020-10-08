@@ -56,6 +56,7 @@ public class FitnessTrack extends JFrame {
 	}
 
 	public FitnessTrack() {
+		//Design of main panel
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(10, 100, 450, 300);
 		contentPane = new JPanel();
