@@ -37,6 +37,7 @@ public class FitnessTrack extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField insertBox;
+	//To make a new object of the class containing the logic behind the gui
 	Track track=new Track();
 	public static JTextArea printingBox;
 	
