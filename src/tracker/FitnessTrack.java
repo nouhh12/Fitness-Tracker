@@ -103,6 +103,7 @@ public class FitnessTrack extends JFrame {
 				else {
 				//To pass the time of the activity to Track object
 				int time=Integer.parseInt(insertBox.getText());
+				//To specify which activity this passed time belongs to
 				track.getCaloriesBurnt(time, "Swimming");
 				track.heartRateIncrease(time, "Swimming");
 				insertBox.setText("Added Succesfully..");
