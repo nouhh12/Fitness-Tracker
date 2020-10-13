@@ -319,6 +319,7 @@ public Show(Track track) {
 					winner=option;
 					}
 		blacklist[k++]=winner;
+		//To append the data to the display box
 		switch(winner) {
 		case 0: printingBox.append("Swimming:\n");
 			printingBox.append(track.getCalories(0)+"\n");
