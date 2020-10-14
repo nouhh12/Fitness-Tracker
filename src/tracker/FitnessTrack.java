@@ -267,6 +267,7 @@ public Show(Track track) {
 	contentPane.setLayout(new BorderLayout(0, 0));
 	setContentPane(contentPane);
 	
+	//Initialize the display area in second screen
 	final JTextArea printingBox = new JTextArea(13,20);
 	printingBox.setForeground(Color.BLACK);
 	printingBox.setBackground(new Color(231,231,231));
