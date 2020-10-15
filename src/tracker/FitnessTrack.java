@@ -106,6 +106,7 @@ public class FitnessTrack extends JFrame {
 				//To specify which activity this passed time belongs to
 				track.getCaloriesBurnt(time, "Swimming");
 				track.heartRateIncrease(time, "Swimming");
+				//To confirm that the passed time has been recordef successfully
 				insertBox.setText("Added Succesfully..");
 				mytimer.start();
 				mytimer.setRepeats(false);
